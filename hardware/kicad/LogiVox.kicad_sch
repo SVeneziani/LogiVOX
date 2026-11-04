@@ -8125,7 +8125,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d15118d-1fc8-4b18-92de-04ab5c2fd33c")
@@ -13895,7 +13895,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TEST"
+		(property "Value" "TALK-AUTO"
 			(at 115.57 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)

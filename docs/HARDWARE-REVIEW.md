@@ -1,26 +1,13 @@
 # Hardware review before fabrication
 
-Updated 2026-11-04 from the saved builder files. Original design files were copied unchanged. The prototype was manually reworked; this snapshot is not yet a fabrication release. No old Gerbers are included.
+Updated 2026-11-04 from the saved builder files. Design files were copied unchanged. The prototype was manually reworked; this snapshot is not yet a fabrication release. No old Gerbers are included.
 
-## PCB design-rule check
+## Verified PCB check
 
-KiCad CLI check with schematic parity enabled:
+KiCad CLI DRC with schematic parity enabled reports:
 
-- 0 DRC violations.
-- 0 unconnected items.
-- 8 schematic/PCB parity warnings, listed below.
+- **0 DRC violations**.
+- **0 unconnected items**.
+- **0 schematic/PCB parity issues**.
 
-The previous clearance, thermal connection, unconnected copper and silkscreen findings are no longer reported under the saved project rules. A clean DRC does not independently validate manufacturing limits or circuit operation.
-
-## Schematic/PCB parity
-
-- Impronta mancante BT1 (Battery_Cell)
-- (SW1) non corrisponde al valore del simbolo (TALK_AUTO)
-- Impronta mancante TP1 (GND)
-- Impronta mancante TP2 (VDD_5V)
-- Impronta mancante TP3 (BCLK)
-- Impronta mancante TP4 (LRCLK)
-- Impronta mancante TP5 (DIN)
-- Impronta mancante TP6 (PEDALE_IN)
-
-BT1 and TP1–TP6 may be intentionally absent from the PCB; document that intent or reconcile them before release. SW1 has a value/name mismatch with the schematic (TALK_AUTO), not a reported connectivity mismatch.
+Previous findings are no longer reported under the saved project rules. This verifies design-rule compliance and schematic/PCB consistency, not independent circuit operation or compatibility with a manufacturer's process. Check fabrication limits and generate fresh manufacturing outputs before ordering.

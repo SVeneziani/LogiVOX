@@ -21,8 +21,8 @@ Il prototipo è completato e funzionante. Questa copia è una **bozza privata di
 
 ## Prima della pubblicazione
 
-- DRC PCB verificato il 4 novembre 2026: zero violazioni e zero connessioni mancanti. Restano da risolvere o motivare otto avvisi di parità schema–PCB e verificare le impronte.
-- Completare istruzioni di stampa, esportazioni STEP/STL e una foto definitiva.
+- DRC PCB verificato il 4 novembre 2026: zero violazioni e zero connessioni mancanti. Anche il confronto schema–PCB è privo di segnalazioni. Verificare comunque i requisiti produttivi prima di ordinare.
+- Completare istruzioni di stampa ed esportazioni STEP/STL.
 - Completare e provare l'installazione su un Raspberry pulito.
 - Scegliere le licenze e chiarire la distribuzione delle registrazioni vocali.
 
@@ -34,3 +34,7 @@ Codice e test sono in `Software/`. Il server web/USB è il progetto separato [ow
 - [Progetto Bambu Studio](3D/BambuStudio/Button.3mf)
 
 I file originali sono inclusi senza modifiche. Contenuto delle piastre e impostazioni di stampa da verificare nell’applicazione; dettagli in [enclosure](enclosure/README.md).
+
+## Foto e video
+
+[16 fotografie e un video del progetto](Foto_Video/README.md).

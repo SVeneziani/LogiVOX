@@ -9,4 +9,4 @@ The builder designed and printed a custom enclosure that mounts to the OWON XDM1
 
 These files were supplied by the builder and copied unchanged. Archive integrity was checked, but the models have not yet been opened or print settings validated in their respective applications. The name `Button.3mf` alone does not establish whether all enclosure parts are included.
 
-STEP/STL exports, material, printer settings, assembly instructions and a final photograph are still pending.
+STEP/STL exports, material, printer settings and assembly instructions are still pending. Photographs and video are available in [Foto_Video](../Foto_Video/README.md).
