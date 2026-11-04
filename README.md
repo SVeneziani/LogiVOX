@@ -10,7 +10,7 @@ Keep your hands on the probes and let your multimeter speak. Tap a foot pedal fo
 
 ## Project status
 
-The assembled prototype works and has been tested by its builder. This repository is a **public development snapshot**, not yet a reproducible fabrication release. PCB DRC and schematic/PCB parity checks are clean; print instructions and neutral CAD exports are pending, as are redistributable audio/licensing choices.
+The assembled prototype works and has been tested by its builder. This repository is a **public development snapshot**, not yet a reproducible fabrication release. PCB DRC and schematic/PCB parity checks are clean; print instructions and neutral CAD exports are pending, as are audio redistribution and software licensing.
 
 ## Features
 
@@ -62,4 +62,6 @@ See [installation notes](docs/INSTALLATION.md). The prototype runs Debian 13 on 
 
 ## Licensing
 
-Licenses for LogiVOX software, hardware and documentation are **not yet selected**. No blanket open-source license is asserted in this repository. Third-party projects retain their own licenses. Generated voice recordings are deliberately excluded pending redistribution-rights review.
+Original hardware and enclosure design contributions are offered under **CC BY-NC-SA 4.0**: attribution, noncommercial use and ShareAlike for shared adaptations. Commercial permission and any royalties require a separate written agreement with Sergio Veneziani.
+
+See [licensing scope and exceptions](LICENSE.md). Software, general documentation, photographs/video, third-party materials and voice recordings are not covered by this design-file license. Earlier valid license grants are not revoked.

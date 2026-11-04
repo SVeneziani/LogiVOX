@@ -26,7 +26,7 @@ Il prototipo è completato e funzionante. Questa copia è una **versione di svil
 - DRC PCB verificato il 4 novembre 2026: zero violazioni e zero connessioni mancanti. Anche il confronto schema–PCB è privo di segnalazioni. Verificare comunque i requisiti produttivi prima di ordinare.
 - Completare istruzioni di stampa ed esportazioni STEP/STL.
 - Completare e provare l'installazione su un Raspberry pulito.
-- Scegliere le licenze e chiarire la distribuzione delle registrazioni vocali.
+- Definire la licenza software e chiarire la distribuzione delle registrazioni vocali.
 
 Codice e test sono in `Software/`. Il server web/USB è il progetto separato [owon-xdm1041-server di Jason Antman](https://github.com/jantman/owon-xdm1041-server), non una dashboard sviluppata da zero per LogiVOX. Crediti completi nel [README inglese](README.md).
 
@@ -44,3 +44,9 @@ I file originali sono inclusi senza modifiche. Contenuto delle piastre e imposta
 ## Componenti acquistati
 
 [Pedale, modulo di alimentazione e connettori utilizzati nel prototipo](docs/COMPONENTS.md).
+
+## Licenza
+
+I contributi originali ai file hardware e al contenitore sono distribuiti sotto **CC BY-NC-SA 4.0**: attribuzione, uso non commerciale e stessa licenza per gli adattamenti condivisi. Autorizzazioni commerciali ed eventuali royalty richiedono un accordo scritto separato con Sergio Veneziani; non sono automatiche.
+
+Vedi [ambito ed esclusioni](LICENSE.md). Software, documentazione generale, foto/video, materiali di terzi e registrazioni vocali non sono inclusi in questa licenza dei file di progetto. Restano salvi eventuali diritti già validamente concessi con licenze precedenti.
