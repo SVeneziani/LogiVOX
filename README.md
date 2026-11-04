@@ -8,7 +8,7 @@ LogiVOX is a DIY speaking companion for the **OWON XDM1041**, built by Sergio Ve
 
 ## Project status
 
-The assembled prototype works and has been tested by its builder. This repository is a **private preparation draft**, not yet a reproducible fabrication release. Hardware files still have DRC/parity items to review, enclosure CAD is not included yet, and redistributable audio/licensing choices are pending.
+The assembled prototype works and has been tested by its builder. This repository is a **private preparation draft**, not yet a reproducible fabrication release. Hardware files still have DRC/parity items to review, print instructions and neutral CAD exports are pending, as are redistributable audio/licensing choices.
 
 ## Features
 
@@ -30,7 +30,8 @@ Only the OWON XDM1041 has been tested with this build. AUTO defaults to off at s
 - `Software/tools/`: local voice generation helper for macOS.
 - `hardware/kicad/`: current schematic/PCB/project snapshot.
 - `docs/`: current pinout, operating notes and outstanding hardware review.
-- `enclosure/`: CAD exports pending.
+- `3D/`: Autodesk Fusion design and Bambu Studio project.
+- `enclosure/`: enclosure file inventory and remaining print documentation.
 
 ## Tests
 

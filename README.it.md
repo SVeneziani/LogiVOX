@@ -22,8 +22,15 @@ Il prototipo è completato e funzionante. Questa copia è una **bozza privata di
 ## Prima della pubblicazione
 
 - Risolvere o motivare i risultati DRC/parità e controllare le impronte.
-- Aggiungere i file 3D del contenitore e una foto definitiva.
+- Completare istruzioni di stampa, esportazioni STEP/STL e una foto definitiva.
 - Completare e provare l'installazione su un Raspberry pulito.
 - Scegliere le licenze e chiarire la distribuzione delle registrazioni vocali.
 
 Codice e test sono in `Software/`. Il server web/USB è il progetto separato [owon-xdm1041-server di Jason Antman](https://github.com/jantman/owon-xdm1041-server), non una dashboard sviluppata da zero per LogiVOX. Crediti completi nel [README inglese](README.md).
+
+## File 3D
+
+- [Progetto Autodesk Fusion](3D/AutodeskFusion/LogiVOX.f3d)
+- [Progetto Bambu Studio](3D/BambuStudio/Button.3mf)
+
+I file originali sono inclusi senza modifiche. Contenuto delle piastre e impostazioni di stampa da verificare nell’applicazione; dettagli in [enclosure](enclosure/README.md).
