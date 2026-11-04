@@ -1,8 +1,10 @@
-# LogiVOX — una voce per il multimetro da banco
+# LogiVOX — gli occhi sui puntali, la misura a voce
+
+Premi il pedale e ascolta la misura. Attiva AUTO e lascia che LogiVOX annunci i cambiamenti significativi quando il valore si stabilizza. Un accessorio costruito per il banco, collegato via USB senza aprire il multimetro.
 
 Progetto di **Sergio Veneziani** per leggere ad alta voce le misure dell'OWON XDM1041 senza distogliere lo sguardo dal lavoro. Raspberry Pi Zero 2 W, collegamento USB, amplificatore MAX98357A, pedale, pulsante TALK/AUTO e UPS con distacco automatico.
 
-Il prototipo è completato e funzionante. Questa copia è una **bozza privata di preparazione alla pubblicazione**: non è ancora una release pronta da costruire.
+Il prototipo è completato e funzionante. Questa copia è una **versione di sviluppo pubblica**: non è ancora una release pronta da costruire.
 
 ## Uso
 
@@ -17,9 +19,9 @@ Il prototipo è completato e funzionante. Questa copia è una **bozza privata di
 - C7 è **4,7 µF**, non 10 nF (marcatura 103). Valore e impronta definitiva vanno verificati prima di produrre una nuova scheda.
 - I pin fisici **15 e 16 devono essere separati**. Assegnazione finale: pin15/BCM22 pulsante, pin16/BCM23 LED Voice.
 - La prima scheda è stata modificata manualmente. Sono esclusi i vecchi Gerber per evitare di produrre la versione con errori.
-- Il [rapporto hardware](docs/HARDWARE-REVIEW.md) elenca le anomalie ancora presenti nei file attuali.
+- Il [rapporto hardware](docs/HARDWARE-REVIEW.md) riporta i controlli superati e le verifiche prima della produzione.
 
-## Prima della pubblicazione
+## Stato e prossimi passi
 
 - DRC PCB verificato il 4 novembre 2026: zero violazioni e zero connessioni mancanti. Anche il confronto schema–PCB è privo di segnalazioni. Verificare comunque i requisiti produttivi prima di ordinare.
 - Completare istruzioni di stampa ed esportazioni STEP/STL.
@@ -38,3 +40,7 @@ I file originali sono inclusi senza modifiche. Contenuto delle piastre e imposta
 ## Foto e video
 
 [16 fotografie e un video del progetto](Foto_Video/README.md).
+
+## Componenti acquistati
+
+[Pedale, modulo di alimentazione e connettori utilizzati nel prototipo](docs/COMPONENTS.md).

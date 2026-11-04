@@ -1,14 +1,16 @@
 # LogiVOX
 
-**A voice for your bench multimeter.**
+**Eyes on the probes. Ears on the measurement.**
 
 LogiVOX is a DIY speaking companion for the **OWON XDM1041**, built by Sergio Veneziani using a Raspberry Pi Zero 2 W, USB communication, a MAX98357A I²S amplifier, a foot pedal and a custom enclosure.
+
+Keep your hands on the probes and let your multimeter speak. Tap a foot pedal for a reading, or enable AUTO to hear stable, meaningful changes. LogiVOX adds a voice to the bench through USB, without opening the multimeter.
 
 [Documentazione italiana](README.it.md) · [Hardware review](docs/HARDWARE-REVIEW.md) · [TALK/AUTO](docs/TALK-AUTO.md)
 
 ## Project status
 
-The assembled prototype works and has been tested by its builder. This repository is a **private preparation draft**, not yet a reproducible fabrication release. PCB DRC and schematic/PCB parity checks are clean; print instructions and neutral CAD exports are pending, as are redistributable audio/licensing choices.
+The assembled prototype works and has been tested by its builder. This repository is a **public development snapshot**, not yet a reproducible fabrication release. PCB DRC and schematic/PCB parity checks are clean; print instructions and neutral CAD exports are pending, as are redistributable audio/licensing choices.
 
 ## Features
 
@@ -21,6 +23,10 @@ The assembled prototype works and has been tested by its builder. This repositor
 - An existing OWON server supplies the USB connection, web dashboard and measurement API.
 
 Only the OWON XDM1041 has been tested with this build. AUTO defaults to off at startup. FORCE OFF cuts power directly; it is not an orderly software shutdown.
+
+## Parts used in the prototype
+
+See the [component links](docs/COMPONENTS.md) for the foot pedal, power module and panel connectors used by the builder.
 
 ## Repository layout
 
@@ -56,4 +62,4 @@ See [installation notes](docs/INSTALLATION.md). The prototype runs Debian 13 on 
 
 ## Licensing
 
-Licenses for LogiVOX software, hardware and documentation are **not yet selected**. No blanket open-source license is asserted in this draft. Third-party projects retain their own licenses. Generated voice recordings are deliberately excluded pending redistribution-rights review.
+Licenses for LogiVOX software, hardware and documentation are **not yet selected**. No blanket open-source license is asserted in this repository. Third-party projects retain their own licenses. Generated voice recordings are deliberately excluded pending redistribution-rights review.
