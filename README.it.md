@@ -21,7 +21,7 @@ Il prototipo è completato e funzionante. Questa copia è una **bozza privata di
 
 ## Prima della pubblicazione
 
-- Risolvere o motivare i risultati DRC/parità e controllare le impronte.
+- DRC PCB verificato il 4 novembre 2026: zero violazioni e zero connessioni mancanti. Restano da risolvere o motivare otto avvisi di parità schema–PCB e verificare le impronte.
 - Completare istruzioni di stampa, esportazioni STEP/STL e una foto definitiva.
 - Completare e provare l'installazione su un Raspberry pulito.
 - Scegliere le licenze e chiarire la distribuzione delle registrazioni vocali.
