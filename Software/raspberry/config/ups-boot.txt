@@ -1,0 +1,4 @@
+# Add under [all] in /boot/firmware/config.txt ONLY after hardware verification.
+# BCM26 stays inactive during operation, goes high when power removal is safe.
+dtoverlay=gpio-poweroff,gpiopin=26
+# Do NOT add gpio-shutdown on BCM24: logivox-ups.service owns that input.

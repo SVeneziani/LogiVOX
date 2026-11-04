@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.wav
+*.mp3
+*.aiff
+*.sqlite*
+*-backups/
+*.kicad_prl
+~*.lck
+venv/
+.venv/

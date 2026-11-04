@@ -1,0 +1,14 @@
+[Unit]
+Description=LogiVOX UPS power loss monitor
+After=local-fs.target
+
+[Service]
+Type=simple
+User=root
+Environment=GPIOZERO_PIN_FACTORY=lgpio
+ExecStart=/usr/bin/python3 /home/sadmin/LogiVOX/bin/logivox_ups.py --poweroff
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=LogiVOX Wi-Fi and OWON ready LED
+After=logivox.service
+
+[Service]
+ExecStart=/usr/bin/python3 /home/sadmin/LogiVOX/bin/logivox.py ready
+Environment=GPIOZERO_PIN_FACTORY=lgpio
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
