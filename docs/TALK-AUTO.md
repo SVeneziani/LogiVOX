@@ -1,8 +1,6 @@
 # TALK/AUTO — 3 novembre 2026
 
-Pin dopo modifica fisica dell'utente: LED Voice BCM23 (pin16), SW1 Talk/Auto BCM22 (pin15), pedale BCM17 (pin11). Le reti 15 e 16 erano unite nei file originali: sono state separate dall'utente. Verifica sul banco: LED funzionante sul nuovo pin; due pressioni/rilasci su GPIO22 registrati.
-
-Il servizio utente esistente `logivox-pedal` gestisce entrambi gli ingressi. Pressione breve SW1: lettura al rilascio. Pressione lunga di due secondi: abilita/disabilita AUTO con annuncio. Un pulsante premuto all'avvio deve prima essere rilasciato. Il pedale legge alla pressione e non cambia AUTO. Al riavvio AUTO è sempre spento.
+Il servizio  esistente `logivox-pedal` gestisce entrambi gli ingressi. Pressione breve SW1: lettura al rilascio. Pressione lunga di due secondi: abilita/disabilita AUTO con annuncio. Un pulsante premuto all'avvio deve prima essere rilasciato. Il pedale legge alla pressione e non cambia AUTO. Al riavvio AUTO è sempre spento.
 
 AUTO acquisisce al massimo ogni 250 ms quando non sta parlando. Richiede almeno tre campioni distinti in una finestra di almeno un secondo. Oscillazione ammessa: massimo tra 0,2% del valore e soglia assoluta. Annuncia inizialmente la prima misura stabile, poi differenze di almeno 1% rispetto all'ultima pronunciata, oppure la soglia assoluta se maggiore. Nessuna ripetizione periodica di valori invariati. Tre secondi minimi dalla fine della precedente lettura. Un andamento continuamente instabile non viene annunciato: Talk/pedale consentono comunque la lettura istantanea.
 
@@ -18,4 +16,4 @@ Installazione eseguita su <raspberry-ip>: servizio avviato regolarmente, checksu
 
 ## Collaudo finale confermato — 3 novembre 2026
 
-L’utente ha confermato il funzionamento della prova completa richiesta: pressione breve per lettura, pressione lunga per attivazione AUTO con annuncio, prova di misura ferma e variata, pressione lunga per disattivazione con annuncio. Confermati anche LED Voice sul pin fisico 16 / BCM23 e pulsante sul pin fisico 15 / BCM22 dopo separazione delle piste. Le precedenti indicazioni di collaudo in attesa descrivono lo stato prima di questa conferma.
+Il funzionamento della prova completa richiesta: pressione breve per lettura, pressione lunga per attivazione AUTO con annuncio, prova di misura ferma e variata, pressione lunga per disattivazione con annuncio. Confermati anche LED Voice sul pin fisico 16 / BCM23 e pulsante sul pin fisico 15 / BCM22
