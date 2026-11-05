@@ -33,7 +33,7 @@ Codice e test sono in `Software/`. Il server web/USB è il progetto separato [ow
 ## File 3D
 
 - [Progetto Autodesk Fusion](3D/AutodeskFusion/LogiVOX.f3d)
-- [Progetto Bambu Studio](3D/BambuStudio/Button.3mf)
+- [Progetto Bambu Studio](3D/BambuStudio/LogiVOX.3mf)
 
 I file originali sono inclusi senza modifiche. Contenuto delle piastre e impostazioni di stampa da verificare nell’applicazione; dettagli in [enclosure](enclosure/README.md).
 
