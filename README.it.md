@@ -1,5 +1,7 @@
 # LogiVOX — gli occhi sui puntali, la misura a voce
 
+[▶ Video del progetto — 1 min 35 s, Full HD](Foto_Video/LogiVOX-presentation.mp4)
+
 Premi il pedale e ascolta la misura. Attiva AUTO e lascia che LogiVOX annunci i cambiamenti significativi quando il valore si stabilizza. Un accessorio costruito per il banco, collegato via USB senza aprire il multimetro.
 
 Progetto di **Sergio Veneziani** per leggere ad alta voce le misure dell'OWON XDM1041 senza distogliere lo sguardo dal lavoro. Raspberry Pi Zero 2 W, collegamento USB, amplificatore MAX98357A, pedale, pulsante TALK/AUTO e UPS con distacco automatico.
@@ -39,7 +41,7 @@ I file originali sono inclusi senza modifiche. Contenuto delle piastre e imposta
 
 ## Foto e video
 
-[16 fotografie e un video del progetto](Foto_Video/README.md).
+[16 fotografie, video di presentazione e dimostrazione](Foto_Video/README.md).
 
 ## Componenti acquistati
 

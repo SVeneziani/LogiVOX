@@ -2,6 +2,8 @@
 
 **Eyes on the probes. Ears on the measurement.**
 
+[▶ Project video — 1 min 35 s, Full HD](Foto_Video/LogiVOX-presentation.mp4)
+
 LogiVOX is a DIY speaking companion for the **OWON XDM1041**, built by Sergio Veneziani using a Raspberry Pi Zero 2 W, USB communication, a MAX98357A I²S amplifier, a foot pedal and a custom enclosure.
 
 Keep your hands on the probes and let your multimeter speak. Tap a foot pedal for a reading, or enable AUTO to hear stable, meaningful changes. LogiVOX adds a voice to the bench through USB, without opening the multimeter.
@@ -38,7 +40,7 @@ See the [component links](docs/COMPONENTS.md) for the foot pedal, power module a
 - `docs/`: current pinout, operating notes and outstanding hardware review.
 - `3D/`: Autodesk Fusion design and Bambu Studio project.
 - `enclosure/`: enclosure file inventory and remaining print documentation.
-- [Foto_Video/](Foto_Video/): 16 original photographs and a demonstration video.
+- [Foto_Video/](Foto_Video/): 16 original photographs, the project presentation and a demonstration video.
 
 ## Tests
 
